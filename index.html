@@ -232,6 +232,14 @@
   .qr .cap b { font-size: 14px; line-height: 1.15; }
   .qr .cap small { font-size: 11.5px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
+  .more {
+    display: inline-block; margin-top: 20px;
+    font-size: 14px; color: #c9c9e3; text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,.25); padding-bottom: 2px;
+    transition: color .2s, border-color .2s;
+  }
+  .more:hover, .more:focus-visible { color: var(--c3); border-color: var(--c3); outline: none; }
+
   @media (max-width: 420px) {
     .card { padding: 36px 20px 26px; border-radius: 24px; }
     .social { width: 54px; height: 54px; }
@@ -294,6 +302,7 @@
       <svg viewBox="0 0 24 24"><path d="M2.010 21 23 12 2.010 3 2 10l15 2-15 2z"/></svg>
       Написать мне
     </a>
+    <a class="more" href="https://am89538880507miki88.github.io/landing/">Мои услуги: сайты, боты, ИИ-помощники →</a>
   </main>
 
 <script>
